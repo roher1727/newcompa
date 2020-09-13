@@ -1,0 +1,77 @@
+body {
+    background-color: #ffffff;
+    margin-top:6rem;
+    position:absolute;
+    top:0; left:0; bottom:0;right:0;
+}
+
+nav {
+    background-color: white;
+    box-shadow: 0px 1px 3px 0px #c7c7c7;
+    z-index: 1;
+}
+
+.logo-image {
+    height:3.5rem;
+    margin-right: 1.5rem;
+    margin-left: 0rem;
+    margin-bottom: -1rem;
+    margin-top: -0.2rem;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.color-text{
+    color: #3c6e7F;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: #3c6e7F;
+    font-weight: bold;
+}
+
+.button-color {
+    background-color: #3c6e71;
+    color: white;
+    font-size: large;
+}
+
+.burger{
+    color: #3c6e71;
+}
+
+.card {
+    background-color: #f5f5f5;
+}
+
+.nav-link {
+    color: #3c6e71;
+}
+
+.footer {
+    height: 3rem;
+    width: 100%;
+    line-height: 3rem;
+    background-color: #eceff1;
+    text-align: center;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
+.main-content{
+    min-height: -webkit-calc(100% - 5rem);
+    min-height:    -moz-calc(100% - 5rem);
+    min-height:         calc(100% - 5rem);
+}
+.footer-pad{
+    height: 2rem;
+}
